@@ -6,6 +6,9 @@ Zaimplementujcie aplikację, która będzie posiadała 2 podstawowe feature'y:
 
 W tym celu podzielcie się na 2 grupy (2 i 3 osoby).
 
+## UML Diagram
+![UML Diagram](./UML.png)
+
 ## Grupa 1 (3 osoby)
 Waszym zadaniem jest zaimplementowanie 3 klas *AvailableProcessorsInfo*, *FreeMemoryInfo* oraz *TotalMemoryAvailableInfo*, które implementują interfejs *JVMRuntimeInfo*.
 **Pamiętajcie, że chcemy uzyskać informację o dostępnej pamięci w MB!**

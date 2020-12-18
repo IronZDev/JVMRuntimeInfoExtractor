@@ -7,7 +7,7 @@ Zaimplementujcie aplikację, która będzie posiadała 2 podstawowe feature'y:
 W tym celu podzielcie się na 2 grupy (2 i 3 osoby).
 
 ## Grupa 1 (3 osoby)
-Waszym zadaniem jest zaimplementowanie 3 klas AvailableProcessorsInfo, FreeMemoryInfo oraz TotalMemoryAvailableInfo, które implementują interfejs JVMRuntimeInfo.
+Waszym zadaniem jest zaimplementowanie 3 klas *AvailableProcessorsInfo*, *FreeMemoryInfo* oraz *TotalMemoryAvailableInfo*, które implementują interfejs *JVMRuntimeInfo*.
 **Pamiętajcie, że chcemy uzyskać informację o dostępnej pamięci w MB!**
 
 **Wskazówki:**
@@ -16,7 +16,7 @@ Waszym zadaniem jest zaimplementowanie 3 klas AvailableProcessorsInfo, FreeMemor
 * Aby otrzymać ilość w MB, wystarczy podzieliść ilość B przez 1024*1024
 
 ## Grupa 2 (2 osoby)
-Waszym zadaniem jest zaimplementowanie 2 klas JsonSaver oraz TxtSaver implementujących interfejs InfoSaver.
+Waszym zadaniem jest zaimplementowanie 2 klas *JsonSaver* oraz *TxtSaver* implementujących interfejs *InfoSaver*.
 Do obsługi JSON'a użyjcie biblioteki [JSON-Simple](https://code.google.com/archive/p/json-simple/)
 
 **Wskazówki:**

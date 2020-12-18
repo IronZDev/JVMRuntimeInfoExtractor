@@ -1,0 +1,3 @@
+Free Memory: 238 MB
+Available Memory: 243 MB
+Available Processors: 12

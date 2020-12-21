@@ -9,6 +9,17 @@ public class JsonSaver implements InfoSaver {
 
     @Override
     public void saveInformation(long freeMemory, long availableMemory, long availableProcessors) {
-        // Your code here
+        JSONObject information = new JSONObject();
+
+        information.put("Free memory", freeMemory);
+        information.put("Available memory", availableMemory);
+        information.put("Available processors", availableProcessors);
+
+        try (FileWriter file = new FileWriter("information.json")) {
+            file.write(information.toJSONString());
+            file.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

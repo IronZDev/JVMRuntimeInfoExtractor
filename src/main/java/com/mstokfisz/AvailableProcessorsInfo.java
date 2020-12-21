@@ -4,6 +4,6 @@ public class AvailableProcessorsInfo implements JVMRuntimeInfo{
     @Override
     public long getCurrentInfo() {
         // Your code here
-        return 0;
+        return Runtime.getRuntime().availableProcessors();
     }
 }

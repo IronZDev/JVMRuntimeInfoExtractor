@@ -1,5 +1,5 @@
 # JVMRuntimeInfoExtractor
-
+Tutorial project made for the purpose of explaining Feature-Driven Development.
 ## 1. Stworzenie ogólnego modelu
 ![UML Diagram](./UML.png)
 
